@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    /* align-items: center;*/
+    display: flex; 
+    /* display: inline-table; */
+    /* align-items: center; */
+
+}
+.canvas{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.button{
+    height: 50px;
+    width: 60px;
+    border: 2px solid #212121;
+    margin: 20px;
+}
+span:nth-child(2){
+    background-color: #a9a9a9a9;
+}
+span:nth-child(3){
+    background-color:#fff000;
+}
+span:nth-child(4){
+    background-color:white;
+}
+span:nth-child(5){
+    background-color: #0000ff;
+}
